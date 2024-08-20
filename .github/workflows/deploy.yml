@@ -1,8 +1,8 @@
 name: deploy
 on:
   push:
-    branch:
-      - '**"
+    branches:
+      - '**'
 
 jobs:
   bash-script:
